@@ -5,7 +5,7 @@ def main():
     conn = sqlite3.connect("users.sqlite")
     cursor = conn.cursor()
 
-    sql = "INSERT INTO users (name,age) VALUES ('Bob',90)"
+    sql = "INSERT INTO users (name,age) VALUES ('Tom',43)"
 
     cursor.execute(sql)
 
